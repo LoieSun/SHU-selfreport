@@ -18,7 +18,7 @@ def get_time():
     # 获取0时区时间，变换为东八区时间
     # 原因：运行程序的服务器所处时区不确定
     t = dt.datetime.utcnow()
-    t = t + dt.timedelta(hours=8)
+    t = t + dt.timedelta(hours=4)
 
     # 或者：
     # t = dt.datetime.utcnow()
