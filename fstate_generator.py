@@ -60,7 +60,7 @@ def get_random_address():
 
 def get_last_report(sess, t):
     ShiFSH = '是'
-    ShiFZX = '否'
+    ShiFZX = '是'
     ddlSheng = '上海'
     ddlShi = '上海市'
     ddlXian = '宝山区'
