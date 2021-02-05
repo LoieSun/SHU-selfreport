@@ -10,10 +10,11 @@ def send_mail():
     
     
     sender = 'admin@emx6.com'
-    receivers = ['chnzjycp@foxmail.com']  # 接收邮箱
+    receivers = ['2212280169@qq.com']  # 接收邮箱
 
     mail_msg='''
-    每日一报提交失败,请前往github查看执行日志，以及别忘记手动填报上哈
+    每日一报提交失败,请前往github查看执行日志，以及别忘记手动填报上哈。 
+    from 上帝不会掷骰子
     '''
 
     
