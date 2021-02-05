@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 
 from fstate_generator import generate_fstate_day, generate_fstate_halfday, get_last_report
 from login import login
+from send_mail import send_mail
 
 NEED_BEFORE = False  # 如需补报则置为True，否则False
 START_DT = dt.datetime(2020, 10, 10)  # 需要补报的起始日期
@@ -124,6 +125,7 @@ def report_day(sess, t):
     else:
         print(f'{t} 每日一报提交失败')
         print(r.text)
+        send_mail()
         return False
 
 
