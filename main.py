@@ -78,7 +78,7 @@ def report_day(sess, t):
                 "p1$ddlXian$Value": ddlXian,
                 "p1$ddlXian": ddlXian,
                 "p1$XiangXDZ": XiangXDZ,
-                "p1$ShiFZJ": "是",
+                "p1$ShiFZJ": "否",
                 "p1$FengXDQDL": "否",
                 "p1$TongZWDLH": "否",
                 "p1$CengFWH": "否",
